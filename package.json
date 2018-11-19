@@ -1,0 +1,30 @@
+{
+  "name": "xuanqidate",
+  "version": "1.0.0",
+  "description": "A node.js package for format date",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -cw"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otfngo/xuanqidate.git"
+  },
+  "keywords": [
+    "node.js",
+    "format",
+    "date"
+  ],
+  "author": "otfngo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/otfngo/xuanqidate/issues"
+  },
+  "homepage": "https://github.com/otfngo/xuanqidate#readme",
+  "devDependencies": {
+    "rollup": "^0.67.3",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-json": "^3.1.0"
+  }
+}
